@@ -33,8 +33,7 @@
     height: 90px;
     padding: 32px 0px 32px 200px;
     color: #676565;
- }
-    
+ } 
 .btn-one {
     display: flex;
     padding: 20px 40px;
@@ -120,7 +119,7 @@
     font-size: 40px;
     color: #272727;
     padding: 50px 0px 5px 0px ;
-    margin-left: 550px;
+    margin-left: 520px;
 }
 .middle-section,p {
     display: flex;
@@ -130,5 +129,45 @@
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    padding-left: 365px;
+    padding-left: 335px;
+}
+#beauty-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 240px;
+    padding: 0px;
+}
+.flower-one {
+    width: 342px;
+    height: 396px;
+    padding-right: 24px;
+}
+.flower-two {
+    width: 342px;
+    height: 396px;
+    padding-right: 24px;
+}
+.flower-three {
+    width: 342px;
+    height: 396px;
+    padding-right: 24px;
+}
+.flower-four {
+    width: 342px;
+    height: 396px;
+    padding-right: 24px;
+}
+.banner-container {
+    height: 445px;
+    width: 1440px ;
+    background-image: url("Flower-Asset/Rectangle\ 9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    margin: 100px 0px 15px 220px;
 }
