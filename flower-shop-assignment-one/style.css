@@ -122,15 +122,16 @@
     padding: 50px 0px 5px 0px ;
     margin-left: 520px;
 }
-.middle-section,p {
+.middle-section, p {
     display: flex;
     width: 594px;
+    height: 200px;
     flex-direction: column;
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    padding-left: 335px;
+    padding-left: 500px;
 }
 #beauty-img {
     display: flex;
@@ -214,6 +215,7 @@
     background-color: rgb(2, 57, 54);
  }
  footer {
+    display: block;
     background-color: #494747;
     color: #fff;
     padding: 20px;
@@ -225,7 +227,7 @@
   
   .shop-footer {
     max-width: 800px;
-    margin: 120px 700px 230px 330px;
+    margin: 120px 800px 230px 330px;
     
     
   }
@@ -239,9 +241,77 @@
   
   .shop-footer p {
     margin: 10px 0;
-    color: #dcd7d7;
+    color: #ffffff;
   }
- 
+
+#bonus-part {
+    display: block;
+    width: 1440px;
+    height: 320px;
+    margin: 50px 240px 50px 240px;
+    background-color: rgba(39, 39, 39, 0.05);;
+}
+.bonus-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 230px 145px 200px ;
+}
+.bonus-two p {
+   padding: 20px;
+}
+
+section {
+    width: 1920px;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+#bonus-one {
+    display: flex;
+ }
+  
+.pic-one,
+.pic-two,
+.pic-three {
+    width: 310px;
+    height: 428px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+ }
+  
+.pic-one img,
+.pic-two img,
+.pic-three img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 40%;
+    margin-bottom: 50px;
+}
+  
+.pic-one p,
+.pic-two p,
+.pic-three p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    margin-right: 500px;
+    text-decoration: underline;
+}
+  
+
+
+
+  
   
   
   
